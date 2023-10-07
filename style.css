@@ -3,7 +3,7 @@ body{
 }
 .lien{text-decoration: none}
 .fond {
-    background-image: url("motifNoir.png");
+    background-image: url("icone/motifNoir.png");
     width: 100vw;
 
     background-position: center;
