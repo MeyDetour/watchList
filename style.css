@@ -93,3 +93,8 @@ h2{
     height: 48px;
     background-position: center;
 }
+@media (min-width: 1200px) {
+    #carouselAnime>.carousel{
+        width: ;
+    }
+}
