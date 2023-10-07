@@ -1,10 +1,177 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="anime.css">
+
+
+    <title>Animés</title>
 </head>
 <body>
+<div class="fond pt-5">
+    <nav class="fixed-top navbar bg-black text-white b bordureNavbar fixed-top">
+        <div class="container-fluid">
+            <a class="text-white navbar-brand fs-2  fw-bold" href="../index.html">My Watch Liste</a>
+            <button class="bg-dark-subtle navbar-toggler text-white" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="  navbar-toggler-icon "></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar"
+                 aria-labelledby="offcanvasNavbarLabel">
+                <div class="bg-black  offcanvas-header">
+                    <h5 class=" fs-3 text-white fw-bold  offcanvas-title" id="offcanvasNavbarLabel">Catégories</h5>
+                    <button type="button" class="btn-close bg-dark-subtle" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body bg-dark-subtle ">
+                    <ul class=" navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="m-2 fs-3 fw-bold nav-item">
+                            <a class=" nav-link   nav-link-hover  " href="../filmliste/filmAccueil.html">Film</a>
+                        </li>
+                        <li class="m-2 fs-3 fw-bold nav-item">
+                            <a class=" nav-link  nav-link-hover  " href="../sérieList/sérieAccueil.html">Série</a>
+                        </li>
+                        <li class="m-2 fs-3 fw-bold nav-item">
+                            <a class=" nav-link  nav-link-hover " href="#">Animé</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex flex-row justify-content-between">
 
+
+        <div class="ps-4 bg-dark barreLatérale mt-2 pt-5 d-flex flex-column">
+            <a href="agirlandguarddog.html" class=" text-violet fs-6 pt-6">A Girl & Her Guard Dog</a>
+            <a href="bluespringride.html" class=" text-violet fs-6">Blue Spring Ride</a>
+            <a href="bloodblockade.html" class=" text-violet fs-6">Blood Blockade</a>
+            <a href="blueorchestra.html" class=" text-violet fs-6">Blue Orchestra</a>
+            <a href="dakaichi.html" class=" text-violet fs-6">Dakaichi My Number 1</a>
+            <a href="demonslayer.html" class=" text-violet fs-6">Demons Slayer</a>
+            <a href="dramaticalmurder.html" class=" text-violet fs-6">Dramatical Murder</a>
+            <a href="fatestaynight.html" class=" text-violet fs-6">Fate Stay Night</a>
+            <a href="fromthenewworld.html" class=" text-violet fs-6">From The New World</a>
+            <a href="fruitbasket.html" class=" text-violet fs-6">Fruit Basket</a>
+            <a href="goldenboy.html" class=" text-violet fs-6">Golden Boy</a>
+            <a href="goldentime.html" class=" text-violet fs-6">Golden Time</a>
+            <a href="grandbleudreaming.html" class=" text-violet fs-6">Grand Bleu Dreaming</a>
+            <a href="haikyu.html" class=" text-violet fs-6">Haikyu</a>
+            <a href="highcard.html" class=" text-violet fs-6">High Card</a>
+            <a href="hyouka.html" class=" text-violet fs-6">Hyouka</a>
+            <a href="idinvaded.html" class=" text-violet fs-6">ID:INVADED</a>
+            <a href="insomniacafterschool.html" class=" text-violet fs-6">Insomniac After School</a>
+            <a href="isitwrongtopickupgirlsinadungeon.html" class=" text-violet fs-6">Is It Wrong to Try to Pick Up Girls in a Dungeon?</a>
+            <a href="kaguyasama.html" class=" text-violet fs-6">Kaguya-sama: Love Is War</a>
+            <a href="kamisamakiss.html" class=" text-violet fs-6">Kamisama Kiss</a>
+            <a href="linkclic.html" class=" text-violet fs-6">Link Click</a>
+            <a href="maidsama.html" class=" text-violet fs-6">Maid Sama</a>
+            <a href="mamasumekuns.html" class=" text-violet fs-6">Mama Sume-kun's Revenge</a>
+            <a href="mashlemagicandmuscles.html" class=" text-violet fs-6">Mashle: Magic and Muscles</a>
+            <a href="mierukuchan.html" class=" text-violet fs-6">Mieruko-chan</a>
+            <a href="monster.html" class=" text-violet fs-6">Monster</a>
+            <a href="mynextlifeasavillainess.html" class=" text-violet fs-6">My Next Life as a Villainess: All Routes Lead to Doom!</a>
+            <a href="nisekoi.html" class=" text-violet fs-6">Nisekoi</a>
+            <a href="oliveettom.html" class=" text-violet fs-6">Olive et Tom</a>
+            <a href="orange.html" class=" text-violet fs-6">Orange</a>
+            <a href="protocolrain.html" class=" text-violet fs-6">Protocol Rain</a>
+            <a href="psychopass.html" class=" text-violet fs-6">Psycho-Pass</a>
+            <a href="rankingofkings.html" class=" text-violet fs-6">Ranking of Kings</a>
+            <a href="redoofhealer.html" class=" text-violet fs-6">Redo of Healer</a>
+            <a href="rezero.html" class=" text-violet fs-6">Re:Zero - Starting Life in Another World</a>
+            <a href="sayiloveyou.html" class=" text-violet fs-6">Say I Love You</a>
+            <a href="shikomori.html" class=" text-violet fs-6">The Quintessential Quintuplets</a>
+            <a href="spyxfamily.html" class=" text-violet fs-6">Spy x Family</a>
+            <a href="sugarapplefairy.html" class=" text-violet fs-6">Sugar Apple Fairy</a>
+            <a href="summertimerendering.html" class=" text-violet fs-6">Summer Time Rendering</a>
+            <a href="takeopdestiny.html" class=" text-violet fs-6">Take Off, Destiny!</a>
+            <a href="talentlessnana.html" class=" text-violet fs-6">Talentless Nana</a>
+            <a href="terrorinresonance.html" class=" text-violet fs-6">Terror in Resonance</a>
+            <a href="thattimeigotreincarnedasaslime.html" class=" text-violet fs-6">That Time I Got Reincarnated as a Slime</a>
+            <a href="theangelnextdoor.html" class=" text-violet fs-6">The Angel Next Door</a>
+            <a href="thedangerinmyheart.html" class=" text-violet fs-6">The Danger in My Heart</a>
+            <a href="thegirldownstair.html" class=" text-violet fs-6">The Girl Downstairs</a>
+            <a href="theknightinthearea.html" class=" text-violet fs-6">The Knight in the Area</a>
+            <a href="toiletboundhanako.html" class=" text-violet fs-6">Toilet-Bound Hanako-kun</a>
+            <a href="tomochanisagirl.html" class=" text-violet fs-6">Tomo-chan Is a Girl!</a>
+            <a href="tomodachigame.html" class=" text-violet fs-6">Tomodachi Game</a>
+            <a href="toocutecrisis.html" class=" text-violet fs-6">Too Cute Crisis</a>
+            <a href="toyoureternity.html" class=" text-violet fs-6">To Your Eternity</a>
+            <a href="undeadgirlmurderfarce.html" class=" text-violet fs-6">Undead Girl Murder Farce</a>
+            <a href="uzakichan.html" class=" text-violet fs-6">Uzaki-chan Wants to Hang Out!</a>
+            <a href="welcometotheballroom.html" class=" text-violet fs-6">Welcome to the Ballroom</a>
+            <a href="yamadakunatlvl9.html" class=" text-violet fs-6">Yamada-kun and the Seven Witches</a>
+            <a href="yurionice.html" class=" text-violet fs-6">Yuri!!! on Ice</a>
+            <a href="acoupleofcuckos.html" class=" text-violet fs-6 pt-6">A Couple of Cuckoos</a>
+            <a href="aftertherain.html" class=" text-violet fs-6">After the Rain</a>
+            <a href="age12.html" class=" text-violet fs-6">Age 12: A Little Heart-Pounding</a>
+            <a href="amagibrillantpark.html" class=" text-violet fs-6">Amagi Brilliant Park</a>
+            <a href="another.html" class=" text-violet fs-6">Another</a>
+            <a href="aoashi.html" class=" text-violet fs-6">Ao Ashi</a>
+            <a href="bluelock.html" class=" text-violet fs-6">Blue Lock</a>
+            <a href="migianddali.html" class=" text-violet fs-6">Migi adn Dalik</a>
+            <a href="btoom.html" class=" text-violet fs-6">Btooom!</a>
+            <a href="bunnygirlsenpai.html" class=" text-violet fs-6">Rascal Does Not Dream of Bunny Girl Senpai</a>
+            <a href="callofthenight.html" class=" text-violet fs-6">Call of the Night</a>
+            <a href="gamblingschool.html" class=" text-violet fs-6">Kakegurui: Compulsive Gambler</a>
+            <a href="chihayafuru.html" class=" text-violet fs-6">Chihayafuru</a>
+            <a href="classroomoftheelite.html" class=" text-violet fs-6">Classroom of the Elite</a>
+            <a href="dancewithdevils.html" class=" text-violet fs-6">Dance with Devils</a>
+            <a href="darlinginthefranxx.html" class=" text-violet fs-6">Darling in the Franxx</a>
+            <a href="deadmanwonderland.html" class=" text-violet fs-6">Deadman Wonderland</a>
+            <a href="scumswish.html" class=" text-violet fs-6">Scum's wish</a>
+            <a href="girlishnumber.html" class=" text-violet fs-6">Girlish Number</a>
+            <a href="given.html" class=" text-violet fs-6">Given</a>
+            <a href="hellsparadise.html" class=" text-violet fs-6">Hell's Paradise: Jigokuraku</a>
+            <a href="bgatahkei.html" class=" text-violet fs-6">B Gata H Kei</a>
+            <a href="horimiya.html" class=" text-violet fs-6">Horimiya</a>
+            <a href="inuyashiki.html" class=" text-violet fs-6">Inuyashiki: Last Hero</a>
+            <a href="k.html" class=" text-violet fs-6">K</a>
+            <a href="kemonojihen.html" class=" text-violet fs-6">Kemono Jihen</a>
+            <a href="kotaroensolo.html" class=" text-violet fs-6">Kotaro Lives Alone</a>
+            <a href="madeinabyss.html" class=" text-violet fs-6">Made in Abyss</a>
+            <a href="magi.html" class=" text-violet fs-6">Magi: The Labyrinth of Magic</a>
+            <a href="parasyte.html" class=" text-violet fs-6">Parasyte: The Maxim</a>
+            <a href="moriartythepatriot.html" class=" text-violet fs-6">Moriarty the Patriot</a>
+            <a href="mylittlemonster.html" class=" text-violet fs-6">My Little Monster</a>
+            <a href="myteenromanticcomedy.html" class=" text-violet fs-6">My Teen Romantic Comedy SNAFU</a>
+            <a href="number24.html" class=" text-violet fs-6">Number 24</a>
+            <a href="opuscolors.html" class=" text-violet fs-6">Opus Colors</a>
+            <a href="oshinoko.html" class=" text-violet fs-6">Oshinoko</a>
+            <a href="realiana.html" class=" text-violet fs-6">Re:Aliana</a>
+            <a href="rokabravesofsixflowers.html" class=" text-violet fs-6">Rokka: Braves of the Six Flowers</a>
+            <a href="ronkamonohashiderangeddetective.html" class=" text-violet fs-6">Ron Kamonohashi: Deranged Detective</a>
+            <a href="sagaogtanyatheevil.html" class=" text-violet fs-6">Saga of Tanya the Evil</a>
+            <a href="sasakitomyano.html" class=" text-violet fs-6">Sasaki to Myano</a>
+            <a href="seraphoftheend.html" class=" text-violet fs-6">Seraph of the End</a>
+            <a href="sereigensouki.html" class=" text-violet fs-6">Serei Gensouki</a>
+            <a href="servamp.html" class=" text-violet fs-6">Servamp</a>
+            <a href="shootGoalToTheFuture.html" class=" text-violet fs-6">Shoot Goal to the Future</a>
+            <a href="sk8.html" class=" text-violet fs-6">Sk8</a>
+            <a href="skipandloafer.html" class=" text-violet fs-6">Skip and Loafer</a>
+            <a href="somalieadntheforestSpirit.html" class=" text-violet fs-6">Somali and the Forest Spirit</a>
+            <a href="sparemegreatlord.html" class=" text-violet fs-6">Spare Me, Great Lord!</a>
+            <a href="superlovers.html" class=" text-violet fs-6">Super Lovers</a>
+            <a href="theapothecarydiaries.html" class=" text-violet fs-6">The Apothecary Diaries</a>
+            <a href="theiceguyandhiscoolfemalecolege.html" class=" text-violet fs-6">The Ice Guy and His Cool Female College</a>
+            <a href="thelastsummoner.html" class=" text-violet fs-6">The Last Summoner</a>
+            <a href="themisfitofthedemonking.html" class=" text-violet fs-6">The Misfit of the Demon King Academy</a>
+            <a href="victorykickoff.html" class=" text-violet fs-6">Victory Kickoff!</a>
+            <a href="yamadaAndSevenWitches.html" class=" text-violet fs-6">Yamada and the Seven Witches</a>
+            <a href="yourlieinapril.html" class=" text-violet fs-6">Your Lie in April</a>
+
+        </div>
+
+
+
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
