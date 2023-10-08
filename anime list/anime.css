@@ -4,3 +4,15 @@
 }
 
 .rouge{color: #c394f8}
+
+div:hover{
+    transition : te;
+}
+
+.carousel-page{
+    width: 100%;
+    height: 100vh;
+}
+.imagePage{
+    width: 300px;
+height: 200px}
