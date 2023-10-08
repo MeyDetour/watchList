@@ -1,10 +1,145 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Film</title>
 </head>
 <body>
+<div class="fond pt-5">
+    <nav class="fixed-top navbar bg-black text-white b bordureNavbar fixed-top">
+        <div class="container-fluid">
+            <a class="text-white navbar-brand fs-2  fw-bold" href="../index.html">My Watch Liste</a>
+            <button class="bg-dark-subtle navbar-toggler text-white" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="  navbar-toggler-icon "></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar"
+                 aria-labelledby="offcanvasNavbarLabel">
+                <div class="bg-black  offcanvas-header">
+                    <h5 class=" fs-3 text-white fw-bold  offcanvas-title" id="offcanvasNavbarLabel">Catégories</h5>
+                    <button type="button" class="btn-close bg-dark-subtle" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body bg-dark-subtle ">
+                    <ul class=" navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="m-2 fs-3 fw-bold nav-item">
+                            <a class=" nav-link   nav-link-hover  " href="#">Film</a>
+                        </li>
+                        <li class="m-2 fs-3 fw-bold nav-item">
+                            <a class=" nav-link  nav-link-hover " href="../anime%20list/animeAccueil.html">Animé</a>
+                        </li>
+                        <li class="m-2 fs-3 fw-bold nav-item">
+                            <a class=" nav-link  nav-link-hover " href="../filmAnimationListe/animationAccueil.html">Film d'animation</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex flex-row justify-content-between">
 
+
+        <div class="ps-4 bg-dark barreLatérale mt-2 pt-5 d-flex flex-column">
+            <a href="tenor.html" class="text-violet lien fs-6 pt-6">Tenor</a>
+            <a href="grand-tourismo.html" class="text-violet lien fs-6 pt-6">Grand tourismo</a>
+            <a href="barbie.html" class="text-violet lien fs-6 pt-6">Barbie</a>
+            <a href="my-fault.html" class="text-violet lien fs-6 pt-6">My Fault</a>
+            <a href="mario-bross.html" class="text-violet lien fs-6">Mario Bross</a>
+            <a href="tin-et-tina.html" class="text-violet lien fs-6">Tin et Tina</a>
+            <a href="cocaine-bear.html" class="text-violet lien fs-6">Cocaine Bear</a>
+            <a href="intouchable.html" class="text-violet lien fs-6">Intouchable</a>
+            <a href="the-invisible-man.html" class="text-violet lien fs-6">The Invisible Man</a>
+            <a href="the-call-of-the-wild.html" class="text-violet lien fs-6">The Call of the Wild</a>
+            <a href="sleeping-beauty.html" class="text-violet lien fs-6">Sleeping Beauty</a>
+            <a href="rise-of-the-guardian.html" class="text-violet lien fs-6">Rise of the Guardian (Les Cinq Légendes)</a>
+            <a href="fant4stic.html" class="text-violet lien fs-6">Fant4stic</a>
+            <a href="valerian.html" class="text-violet lien fs-6">Valerian</a>
+            <a href="the-imitation-game.html" class="text-violet lien fs-6">The Imitation Game</a>
+            <a href="las-vegas-21.html" class="text-violet lien fs-6">Las Vegas 21</a>
+            <a href="belle-et-sebastien.html" class="text-violet lien fs-6">Belle et Sébastien</a>
+            <a href="oss117.html" class="text-violet lien fs-6">OSS117</a>
+            <a href="narnia.html" class="text-violet lien fs-6">Narnia</a>
+            <a href="50-shades-of-grey.html" class="text-violet lien fs-6">50 Shades of Grey</a>
+            <a href="curse-of-chucky.html" class="text-violet lien fs-6">Curse of Chucky</a>
+            <a href="conjuring.html" class="text-violet lien fs-6">Conjuring</a>
+            <a href="suicide-squad.html" class="text-violet lien fs-6">Suicide Squad</a>
+            <a href="bird-of-prey.html" class="text-violet lien fs-6">Bird  of Prey</a>
+            <a href="antman-quantumania.html" class="text-violet lien fs-6">Antman Quantumania</a>
+            <a href="le-menu.html" class="text-violet lien fs-6">Le Menu</a>
+            <a href="avatar.html" class="text-violet lien fs-6">Avatar</a>
+            <a href="shazam.html" class="text-violet lien fs-6">Shazam</a>
+            <a href="twilight.html" class="text-violet lien fs-6">Twilight</a>
+            <a href="malefique-le-film.html" class="text-violet lien fs-6">Maléfique le Film</a>
+            <a href="joker.html" class="text-violet lien fs-6">Joker</a>
+            <a href="aladin-le-film.html" class="text-violet lien fs-6">Aladin le Film</a>
+            <a href="la-reine-des-neiges.html" class="text-violet lien fs-6">La Reine des Neiges</a>
+            <a href="la-petite-sirene-le-film.html" class="text-violet lien fs-6">La Petite Sirène le Film</a>
+            <a href="jurassic-pac.html" class="text-violet lien fs-6">Jurassic Pac</a>
+            <a href="mia-et-le-lion.html" class="text-violet lien fs-6">Mia et le Lion</a>
+            <a href="winnie-the-pooh.html" class="text-violet lien fs-6">Winnie the Pooh</a>
+            <a href="coraline.html" class="text-violet lien fs-6">Coraline</a>
+            <a href="banshees.html" class="text-violet lien fs-6">Banshees</a>
+            <a href="uncharted.html" class="text-violet lien fs-6">Uncharted</a>
+            <a href="wakanda-forever.html" class="text-violet lien fs-6">Wakanda Forever</a>
+            <a href="balto.html" class="text-violet lien fs-6">Balto</a>
+            <a href="the-meg.html" class="text-violet lien fs-6">The Meg</a>
+            <a href="king-kong.html" class="text-violet lien fs-6">King Kong</a>
+            <a href="kong-godzilla.html" class="text-violet lien fs-6">Kong vs Godzilla</a>
+            <a href="human-centiped.html" class="text-violet lien fs-6">Human Centiped</a>
+            <a href="homeward-bound-the-incredible-journey.html" class="text-violet lien fs-6">Homeward Bound: The Incredible Journey</a>
+            <a href="trust.html" class="text-violet lien fs-6">Trust</a>
+            <a href="hypnotic.html" class="text-violet lien fs-6">Hypnotic</a>
+            <a href="goodnight-mommy.html" class="text-violet lien fs-6">Goodnight Mommy</a>
+            <a href="togo.html" class="text-violet lien fs-6">Togo</a>
+            <a href="ballerina-nouveau-film-sur-netflix.html" class="text-violet lien fs-6">Ballerina (Nouveau Film sur Netflix)</a>
+            <a href="escape-game.html" class="text-violet lien fs-6">Escape Game</a>
+            <a href="carrie.html" class="text-violet lien fs-6">Carrie</a>
+            <a href="tau.html" class="text-violet lien fs-6">Tau</a>
+            <a href="1899.html" class="text-violet lien fs-6">1899</a>
+            <a href="2012.html" class="text-violet lien fs-6">2012</a>
+            <a href="la-5eme-vague.html" class="text-violet lien fs-6">La 5eme Vague</a>
+            <a href="the-impossible.html" class="text-violet lien fs-6">The impossible</a>
+            <a href="le-telephone-de-m-harigan.html" class="text-violet lien fs-6">Le Téléphone de M.Harigan</a>
+            <a href="la-plateforme.html" class="text-violet lien fs-6">La Plateforme</a>
+            <a href="choose-or-die.html" class="text-violet lien fs-6">Choose or Die</a>
+            <a href="action-ou-verite.html" class="text-violet lien fs-6">Action ou Vérité</a>
+            <a href="jessie.html" class="text-violet lien fs-6">Jessie</a>
+            <a href="lintrusion.html" class="text-violet lien fs-6">L'Intrusion</a>
+
+
+
+        </div>
+        <div class="container-lg mt-5 pt-5">
+            <div class="film-animation mt-5 ms-5pt-5 mt-5 pb-5 mb-5 ">
+                <div class=" d-flex flex-column ">
+                    <img src="../filmAnimationImage/lesnefantsdutemps.png" class="d-block  ms-5 mb-5 imageFilm" alt="...">
+                    <div class="description">
+                        <h2>  </h2>
+                        <h6>Date de sortie :   </h6>
+                        <h6>Genre : </h6>
+                        <h6>Thèmes :  </h6>
+                        <h6>Durée : </h6>
+                        <p>
+                            <br><br><br>
+                            <a href="" class="fs-4 bg-white rounded-pill p-3 text-decoration-none text-violet "> Voir </a>
+                    </div></div>
+            </div>
+
+
+    </div>
+
+
+    </div>
+
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
