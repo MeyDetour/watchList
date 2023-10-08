@@ -26,6 +26,11 @@ body{
     width: 100%;
 }
 
+.film-animation{
+    width: 100%;
+    height: 514px;
+}
+
 .bar{
     height: 100vh;
     width: 15px;}
@@ -66,6 +71,14 @@ h2{
     width: 370px;
     height: 220px;
 }
+.imagePage{
+    width: 300px;
+    height: 400px;
+    margin-top: 10px;
+}
+.carousel-page{
+    width: 78vw;
+}
 .imageAnimation{
     width: 282px;
     height: 160px;
@@ -92,9 +105,4 @@ h2{
     width: 100%;
     height: 48px;
     background-position: center;
-}
-@media (min-width: 1200px) {
-    #carouselAnime>.carousel{
-        width: ;
-    }
 }
