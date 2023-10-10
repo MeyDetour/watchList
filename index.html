@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="fond pt-5">
-    <nav class="fixed-top navbar bg-black text-white b bordureNavbar fixed-top">
+    <nav class="fixed-top navbar bg-black text-white d-block bordureNavbar fixed-top">
 
         <div class="container-fluid">
 
@@ -24,7 +24,8 @@
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="bg-black  offcanvas-header">
                     <h5 class=" fs-3 text-white fw-bold  offcanvas-title" id="offcanvasNavbarLabel">Catégories</h5>
-                    <button type="button" class="btn-close bg-dark-subtle" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <button type="button" class="bouton-large btn-close bg-dark-subtle" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <button type="button" class="bouton-mini btn-close bg-dark-subtle" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body bg-dark-subtle ">
                     <ul class=" navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -42,7 +43,23 @@
                 </div>
             </div>
         </div>
+        <div class="menu bg-black text-white   ">
+            <ul class=" navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="m-2 fs-3 fw-bold nav-item">
+                    <a class=" text-white  nav-link-hover  " href="filmliste/filmAccueil.html">Film</a>
+                </li>
+
+                <li class="m-2 fs-3 fw-bold nav-item">
+                    <a class=" text-white nav-link-hover " href="anime list/animeAccueil.html">Animé</a>
+                </li>
+                <li class="m-2 fs-3 fw-bold nav-item">
+                    <a class=" text-white nav-link-hover " href="filmAnimationListe/animationAccueil.html">Film d'animation</a>
+                </li>
+            </ul>
+        </div>
+
     </nav>
+
 
     <div class=" container-lg container-sm d-flex flex-column mt-5 pt-5  ">
         <div class=" container-lg container-sm mb-5 pb-5 ">
