@@ -122,12 +122,15 @@ h2{
     font-size: 1.5em;
 
 }
+.bouton-mini{display: none}
 
 
 @media  only screen and (max-width: 1000px){
     .fond{
         padding: 4%;
     }
+    .bouton-mini{display: block}
+    .bouton-large{display: none}
     .table-large{
         display: none}
 
@@ -135,13 +138,21 @@ h2{
         display: block;
 
     }
+    .imageFilm{
+        width: 370px;
+        height: 220px;
+    }
     .carousel{
-        height: 60vh;    ;
+        height: 60vh;
         margin-bottom: 30px;
     }
     .image{
         width: 100%;
         height: 300px;
+    }
+    .carousel-sm{
+        width: 100%;
+        height: 950px;
     }
 
     .description{
@@ -152,15 +163,14 @@ h2{
         background-color: #351d4d;
 
         border-radius: 20px;
-
-
-
-
+    }
+    .imageFilm{
+        width: 100%;
+        height: 300px;
     }
 
     .carousel-item{
         font-size: 0.8em;
-
 
     }
     h2{font-size: 1.1em}
@@ -172,7 +182,7 @@ h2{
     .iconeAllerPage{display: none}
     .carousel-sm{
         width: 100%;
-        height: 728px;
+        height: 940px;
     }
     .card{
         width: 100%;
